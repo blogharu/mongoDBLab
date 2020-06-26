@@ -2,7 +2,7 @@
 
 Download MongoDB from https://www.mongodb.com/
 
-1. Commands
+1. Commands/n
   use DatabaseName                                           // Set current database or create new database
   db                                                         // Get the name of the current database
   show dbs                                                   // Get the list of all databases
