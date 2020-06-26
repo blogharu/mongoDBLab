@@ -4,8 +4,8 @@ Download MongoDB from https://www.mongodb.com/
 
 1. Commands
 
-  use DatabaseName                                           // Set current database or create new database
-  db                                                         // Get the name of the current database
+  $use DatabaseName                                           // Set current database or create new database
+  $db                                                         // Get the name of the current database
   show dbs                                                   // Get the list of all databases
   db.CollectionName.inseart({"A":"a", "B":"b", "C":"c"})     // Add Document to the database at CollectionName 
   db.CollectionName.inseart([{"A":"a"}, {"A":"b"}])          // Add Documents to the database at CollectionName
